@@ -15,6 +15,8 @@ RUN yum update -y \
   && yum -y install automake \
   && yum -y install git \
   && yum -y install vim \
+  && yum -y install zip \
+  && yum -y install unzip \
   && yum -y install php \
   && yum -y install php-fpm \
   && yum -y install php-pdo \
